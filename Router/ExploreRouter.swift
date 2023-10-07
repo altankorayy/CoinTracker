@@ -36,5 +36,4 @@ class ExploreRouter: AnyRouter {
         
         return router
     }
-    
 }

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ExploreTableViewCell: UITableViewCell {
 
@@ -15,7 +16,8 @@ class ExploreTableViewCell: UITableViewCell {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
         image.contentMode = .scaleAspectFit
-        image.image = UIImage(systemName: "person.fill")
+        image.layer.masksToBounds = true
+        image.layer.cornerRadius = 10
         return image
     }()
     
@@ -45,7 +47,6 @@ class ExploreTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
         addSubview(assetImage)
         addSubview(titleLabel)
         addSubview(priceLabel)
@@ -62,8 +63,8 @@ class ExploreTableViewCell: UITableViewCell {
         let assetImageConstraints = [
             assetImage.centerYAnchor.constraint(equalTo: centerYAnchor),
             assetImage.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
-            assetImage.widthAnchor.constraint(equalToConstant: 60),
-            assetImage.heightAnchor.constraint(equalToConstant: 60)
+            assetImage.widthAnchor.constraint(equalToConstant: 50),
+            assetImage.heightAnchor.constraint(equalToConstant: 50)
         ]
 
         let titleLabelConstraints = [
@@ -81,12 +82,23 @@ class ExploreTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate(priceLabelConstraints)
     }
     
-    func update(with cryptos: [CryptoItems], indexPath: Int) {
+    func update(with cryptos: [Item], indexPath: Int) {
         DispatchQueue.main.async { [weak self] in
-            self?.titleLabel.text = cryptos[indexPath].asset_id
-            guard let price = cryptos[indexPath].price_usd else { return }
-            self?.priceLabel.text = "\(price)"
+            self?.titleLabel.text = cryptos[indexPath].symbol
+            guard let price = cryptos[indexPath].price_btc else { return }
+            self?.priceLabel.text = "\(price) BTC"
+            guard let imageUrl = cryptos[indexPath].large else { return }
+            self?.assetImage.sd_setImage(with: URL(string: imageUrl))
         }
     }
     
+    func updateWithNfts(with nft: [Nft], indexPath: Int) {
+        DispatchQueue.main.async { [weak self] in
+            self?.titleLabel.text = nft[indexPath].symbol
+            let price = nft[indexPath].floor_price_in_native_currency
+            self?.priceLabel.text = "\(price) ETH"
+            let imageUrl = nft[indexPath].thumb
+            self?.assetImage.sd_setImage(with: URL(string: imageUrl))
+        }
+    }
 }

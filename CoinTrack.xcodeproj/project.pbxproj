@@ -15,9 +15,13 @@
 		E1301D632AC86F9E00FB6368 /* ExploreInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1301D622AC86F9E00FB6368 /* ExploreInteractor.swift */; };
 		E1301D652AC86FB700FB6368 /* ExplorePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1301D642AC86FB700FB6368 /* ExplorePresenter.swift */; };
 		E1301D672AC86FC300FB6368 /* ExploreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1301D662AC86FC300FB6368 /* ExploreEntity.swift */; };
+		E175612F2AD1AF0600442245 /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175612E2AD1AF0600442245 /* CoinDetailView.swift */; };
+		E17561312AD1AF2900442245 /* NftDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17561302AD1AF2900442245 /* NftDetailView.swift */; };
 		E17FB0662AC874290027A9BC /* ExploreRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17FB0652AC874290027A9BC /* ExploreRouter.swift */; };
 		E19065722ACAD3E800E2DA31 /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19065712ACAD3E800E2DA31 /* ExploreTableViewCell.swift */; };
 		E19AE84A2AC9928100006B6B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AE8492AC9928100006B6B /* APICaller.swift */; };
+		E1ECA3BA2ACCAA40003E261D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = E1ECA3B92ACCAA40003E261D /* SDWebImage */; };
+		E1ECA3BC2ACCAA40003E261D /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1ECA3BB2ACCAA40003E261D /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,8 @@
 		E1301D622AC86F9E00FB6368 /* ExploreInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreInteractor.swift; sourceTree = "<group>"; };
 		E1301D642AC86FB700FB6368 /* ExplorePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePresenter.swift; sourceTree = "<group>"; };
 		E1301D662AC86FC300FB6368 /* ExploreEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreEntity.swift; sourceTree = "<group>"; };
+		E175612E2AD1AF0600442245 /* CoinDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
+		E17561302AD1AF2900442245 /* NftDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftDetailView.swift; sourceTree = "<group>"; };
 		E17FB0652AC874290027A9BC /* ExploreRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRouter.swift; sourceTree = "<group>"; };
 		E19065712ACAD3E800E2DA31 /* ExploreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTableViewCell.swift; sourceTree = "<group>"; };
 		E19AE8492AC9928100006B6B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
@@ -41,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ECA3BC2ACCAA40003E261D /* SDWebImageMapKit in Frameworks */,
+				E1ECA3BA2ACCAA40003E261D /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				E1301D602AC86F8E00FB6368 /* ExploreView.swift */,
+				E175612E2AD1AF0600442245 /* CoinDetailView.swift */,
+				E17561302AD1AF2900442245 /* NftDetailView.swift */,
 				E19065712ACAD3E800E2DA31 /* ExploreTableViewCell.swift */,
 			);
 			path = View;
@@ -146,6 +156,10 @@
 			dependencies = (
 			);
 			name = CoinTrack;
+			packageProductDependencies = (
+				E1ECA3B92ACCAA40003E261D /* SDWebImage */,
+				E1ECA3BB2ACCAA40003E261D /* SDWebImageMapKit */,
+			);
 			productName = CoinTrack;
 			productReference = E1301D412AC86BFF00FB6368 /* CoinTrack.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +188,9 @@
 				Base,
 			);
 			mainGroup = E1301D382AC86BFF00FB6368;
+			packageReferences = (
+				E1ECA3B82ACCAA40003E261D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = E1301D422AC86BFF00FB6368 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -200,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17561312AD1AF2900442245 /* NftDetailView.swift in Sources */,
 				E1301D672AC86FC300FB6368 /* ExploreEntity.swift in Sources */,
 				E1301D632AC86F9E00FB6368 /* ExploreInteractor.swift in Sources */,
 				E1301D652AC86FB700FB6368 /* ExplorePresenter.swift in Sources */,
@@ -208,6 +226,7 @@
 				E1301D452AC86BFF00FB6368 /* AppDelegate.swift in Sources */,
 				E1301D612AC86F8E00FB6368 /* ExploreView.swift in Sources */,
 				E1301D472AC86BFF00FB6368 /* SceneDelegate.swift in Sources */,
+				E175612F2AD1AF0600442245 /* CoinDetailView.swift in Sources */,
 				E19AE84A2AC9928100006B6B /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +448,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1ECA3B82ACCAA40003E261D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1ECA3B92ACCAA40003E261D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1ECA3B82ACCAA40003E261D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		E1ECA3BB2ACCAA40003E261D /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1ECA3B82ACCAA40003E261D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1301D392AC86BFF00FB6368 /* Project object */;
 }
