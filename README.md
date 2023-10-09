@@ -7,6 +7,7 @@
 ## Tech Used
 * VIPER
 * SDWebImage
+* CoinGecko API
 * Programmatic Constraints
 * UIKit with no Storyboard
 * Custom TableView
