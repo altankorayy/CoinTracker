@@ -59,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				E1301D432AC86BFF00FB6368 /* CoinTrack */,
-				E17FB0642AC8741A0027A9BC /* Router */,
 				E1301D422AC86BFF00FB6368 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +84,7 @@
 				E1301D592AC86C6300FB6368 /* Interactor */,
 				E1301D5A2AC86C9200FB6368 /* Presenter */,
 				E1301D5B2AC86C9E00FB6368 /* Entity */,
+				E17FB0642AC8741A0027A9BC /* Router */,
 			);
 			path = CoinTrack;
 			sourceTree = "<group>";
