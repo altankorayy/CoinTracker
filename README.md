@@ -15,14 +15,14 @@
 ## Screenshots
 <div class="row">
   <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/ecebbe48-e140-415e-ad0b-caba84c65388" width="400" height="800" class="col-md-6">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/1a2b9467-05cf-483a-b9f5-a7cdaa5f67f2" width="390" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/a3e44259-c9aa-4da9-b79f-ae2cdb22f588" width="390" height="800" class="col-md-6">
 </div>
 
 <div class="row">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/6b4eb791-8cd9-426e-a1a0-d2f260e002d9" width="390" height="800" class="col-md-6">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/876bf030-b425-4359-beda-67f7baa85ba4" width="390" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/f9f56389-c762-4ff3-9b8e-3c0ae0b3d516" width="390" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/509c64fc-6eb0-456f-968a-8ee75033f8b1" width="390" height="800" class="col-md-6">
 </div>
 
 <div class="row">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/a63ab427-7556-439b-98f3-c77fc209a456"width="390" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/73d11038-b7ab-494b-bcb8-ba48426bef44"width="390" height="800" class="col-md-6">
 </div>
