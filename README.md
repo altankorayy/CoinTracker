@@ -1,8 +1,7 @@
 # CoinTracker
 
 <div class="row">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/1a2b9467-05cf-483a-b9f5-a7cdaa5f67f2" width="400" height="800" class="col-md-6">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/f9c8507b-2b05-4db9-8765-f4626d59e47f" width="400" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/4a995a91-2b6e-42e2-a9ce-c23fd50e8cd2" width="400" height="800" class="col-md-6">
 </div>
 
 ## Tech Used
@@ -14,7 +13,7 @@
 
 ## Screenshots
 <div class="row">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/ecebbe48-e140-415e-ad0b-caba84c65388" width="390" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/ecebbe48-e140-415e-ad0b-caba84c65388" width="400" height="800" class="col-md-6">
   <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/1a2b9467-05cf-483a-b9f5-a7cdaa5f67f2" width="390" height="800" class="col-md-6">
 </div>
 
