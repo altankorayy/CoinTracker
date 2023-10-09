@@ -10,7 +10,7 @@
 * CoinGecko API
 * Programmatic Constraints
 * UIKit with no Storyboard
-* Custom TableView
+* Custom TableView & Sections
 
 ## Screenshots
 <div class="row">
