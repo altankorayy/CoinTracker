@@ -19,7 +19,7 @@
 </div>
 
 <div class="row">
-  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/f9c8507b-2b05-4db9-8765-f4626d59e47f" width="390" height="800" class="col-md-6">
+  <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/6b4eb791-8cd9-426e-a1a0-d2f260e002d9" width="390" height="800" class="col-md-6">
   <img src="https://github.com/altankorayy/CoinTracker/assets/67483357/876bf030-b425-4359-beda-67f7baa85ba4" width="390" height="800" class="col-md-6">
 </div>
 
